@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "Restaurants.API.Controllers.RestaurantsController",
+    "Method": "GetAll",
+    "RelativePath": "api/restaurants",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Restaurants.API.Controllers.RestaurantsController",
+    "Method": "GetById",
+    "RelativePath": "api/restaurants/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
