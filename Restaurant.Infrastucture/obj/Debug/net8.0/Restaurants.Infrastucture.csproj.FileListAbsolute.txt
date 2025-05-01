@@ -36,3 +36,4 @@ C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurant.Infrastucture\obj\
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurant.Infrastucture\obj\Debug\net8.0\Restaurants.Infrastucture.pdb
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurant.Infrastucture\obj\Debug\net8.0\Restaurants.Infrastucture.genruntimeconfig.cache
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurant.Infrastucture\obj\Debug\net8.0\ref\Restaurants.Infrastucture.dll
+C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurant.Infrastucture\obj\Debug\net8.0\Restaurants.Infrastucture.sourcelink.json

@@ -1,10 +1,10 @@
-﻿using Restaurants.Domain.Entities;
+﻿using Restaurants.Application.Restaurants.Dtos;
 
 namespace Restaurants.Application.Restaurants
 {
     public interface IRestaurantsService
     {
-        Task<IEnumerable<Restaurant>> GetRestaurantsAsync ();
-        Task<Restaurant?> GetRestaurantByIdAsync (int id);
+        Task<IEnumerable<RestaurantDto>> GetRestaurantsAsync ();
+        Task<RestaurantDto?> GetRestaurantByIdAsync (int id);
     }
 }

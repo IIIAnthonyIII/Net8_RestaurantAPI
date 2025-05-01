@@ -28,3 +28,4 @@ C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurant.Aplication\obj\Deb
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurant.Aplication\obj\Debug\net8.0\refint\Restaurants.Application.dll
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurant.Aplication\obj\Debug\net8.0\Restaurants.Application.pdb
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurant.Aplication\obj\Debug\net8.0\ref\Restaurants.Application.dll
+C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurant.Aplication\obj\Debug\net8.0\Restaurants.Application.sourcelink.json

@@ -354,3 +354,4 @@ C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\obj\Debug\net
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\obj\Debug\net8.0\Restaurants.API.pdb
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\obj\Debug\net8.0\Restaurants.API.genruntimeconfig.cache
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\obj\Debug\net8.0\ref\Restaurants.API.dll
+C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\obj\Debug\net8.0\Restaurants.API.sourcelink.json
