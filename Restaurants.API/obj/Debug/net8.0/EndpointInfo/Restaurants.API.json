@@ -73,15 +73,20 @@
   "components": {
     "schemas": {
       "CreateRestaurantDto": {
+        "required": [
+          "description"
+        ],
         "type": "object",
         "properties": {
           "name": {
+            "maxLength": 100,
+            "minLength": 6,
             "type": "string",
             "nullable": true
           },
           "description": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "category": {
             "type": "string",
@@ -92,10 +97,12 @@
           },
           "contactEmail": {
             "type": "string",
+            "format": "email",
             "nullable": true
           },
           "contactNumber": {
             "type": "string",
+            "format": "tel",
             "nullable": true
           },
           "city": {
@@ -107,6 +114,7 @@
             "nullable": true
           },
           "postalCode": {
+            "pattern": "^\\d{2}-\\d{3}$",
             "type": "string",
             "nullable": true
           }
