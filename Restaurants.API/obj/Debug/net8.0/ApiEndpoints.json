@@ -11,6 +11,22 @@
   },
   {
     "ContainingType": "Restaurants.API.Controllers.RestaurantsController",
+    "Method": "CreateRestaurant",
+    "RelativePath": "api/restaurants",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "restaurantDto",
+        "Type": "Restaurants.Application.Restaurants.Dtos.CreateRestaurantDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Restaurants.API.Controllers.RestaurantsController",
     "Method": "GetById",
     "RelativePath": "api/restaurants/{id}",
     "HttpMethod": "GET",
