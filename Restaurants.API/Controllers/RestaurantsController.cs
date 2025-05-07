@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using FluentValidation;
+using Microsoft.AspNetCore.Mvc;
 using Restaurants.Application.Restaurants;
 using Restaurants.Application.Restaurants.Dtos;
+
 namespace Restaurants.API.Controllers;
 
 [ApiController]
@@ -22,7 +24,7 @@ public class RestaurantsController(IRestaurantsService restaurantsService) : Con
         return Ok(restaurant);
     }
     [HttpPost]
-    public async Task<IActionResult> CreateRestaurant ([FromBody] CreateRestaurantDto restaurantDto)
+    public async Task<IActionResult> CreateRestaurant ([FromBody] CreateRestaurantDto restaurantDto, IValidator<CreateRestaurantDto> validator)
     {
         int id = await restaurantsService.CreateRestaurantAsync(restaurantDto);
         return CreatedAtAction(nameof(GetById), new { id }, null);

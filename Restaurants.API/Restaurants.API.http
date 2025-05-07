@@ -16,9 +16,9 @@ Content-Type: application/json
 {
   "Name": "New Restaurant",
   "Description": "A new restaurant description",
-  "Category": "Italian",
+  "Category": "",
   "HasDelivery": true,
-  "ContactEmail": "test@gmail.com",
+  "ContactEmail": "testgmail.com",
   "ContactNumber": "123456789",
   "City": "New York",
   "Street": "123 Main St",
