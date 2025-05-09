@@ -1,12 +1,10 @@
 ﻿using MediatR;
-using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
-using Restaurants.Application.Restaurants;
-using Restaurants.Application.Restaurants.Dtos;
 using Restaurants.Application.Restaurants.Queries.GetAllRestaurants;
 using Restaurants.Application.Restaurants.Queries.GetRestaurantById;
 using Restaurants.Application.Restaurants.Commands.CreateRestaurant;
 using Restaurants.Application.Restaurants.Commands.DeleteRestaurant;
+using Restaurants.Application.Restaurants.Commands.UpdateRestaurant;
 
 namespace Restaurants.API.Controllers;
 
@@ -41,6 +39,15 @@ public class RestaurantsController(IMediator mediator) : ControllerBase
     {
         var isDeleted = await mediator.Send(new DeleteRestaurantCommand(id));
         if (isDeleted) return NoContent();
+        return NotFound();
+    }
+
+    [HttpPatch("{id}")]
+    public async Task<IActionResult> UpdateRestaurant (int id, UpdateRestaurantCommand updateRestaurantCommand)
+    {
+        updateRestaurantCommand.Id = id;
+        var isUpdated = await mediator.Send(updateRestaurantCommand);
+        if (isUpdated) return NoContent();
         return NotFound();
     }
 }

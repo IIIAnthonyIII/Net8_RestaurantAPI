@@ -30,4 +30,5 @@ internal class RestaurantsRepository (RestaurantsDBContext dBContext) : IRestaur
         dBContext.Remove(entity);
         await dBContext.SaveChangesAsync();
     }
+    public async Task SaveChanges () => await dBContext.SaveChangesAsync();
 }
