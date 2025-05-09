@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "MynzlAFF9Ho=",
+  "dgSpecHash": "MHBKDFK+0tE=",
   "success": true,
   "projectFilePath": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurant.Aplication\\Restaurants.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\UserNew\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\UserNew\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
     "C:\\Users\\UserNew\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.0.0\\fluentvalidation.dependencyinjectionextensions.12.0.0.nupkg.sha512",
+    "C:\\Users\\UserNew\\.nuget\\packages\\mediatr\\12.5.0\\mediatr.12.5.0.nupkg.sha512",
+    "C:\\Users\\UserNew\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\UserNew\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.4\\microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512",
     "C:\\Users\\UserNew\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.4\\microsoft.extensions.logging.abstractions.9.0.4.nupkg.sha512",
     "C:\\Users\\UserNew\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",

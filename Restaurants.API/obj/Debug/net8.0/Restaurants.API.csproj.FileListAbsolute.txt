@@ -360,3 +360,5 @@ C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\bin\Debug\net
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\bin\Debug\net8.0\SharpGrip.FluentValidation.AutoValidation.Mvc.dll
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\bin\Debug\net8.0\SharpGrip.FluentValidation.AutoValidation.Shared.dll
+C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\bin\Debug\net8.0\MediatR.dll
+C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\bin\Debug\net8.0\MediatR.Contracts.dll

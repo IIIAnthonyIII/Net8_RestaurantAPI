@@ -18,8 +18,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "restaurantDto",
-        "Type": "Restaurants.Application.Restaurants.Dtos.CreateRestaurantDto",
+        "Name": "createRestaurantCommand",
+        "Type": "Restaurants.Application.Restaurants.Commands.CreateRestaurant.CreateRestaurantCommand",
         "IsRequired": true
       }
     ],

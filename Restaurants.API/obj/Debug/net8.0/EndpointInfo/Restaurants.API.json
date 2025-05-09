@@ -24,17 +24,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateRestaurantDto"
+                "$ref": "#/components/schemas/CreateRestaurantCommand"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateRestaurantDto"
+                "$ref": "#/components/schemas/CreateRestaurantCommand"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateRestaurantDto"
+                "$ref": "#/components/schemas/CreateRestaurantCommand"
               }
             }
           }
@@ -72,7 +72,7 @@
   },
   "components": {
     "schemas": {
-      "CreateRestaurantDto": {
+      "CreateRestaurantCommand": {
         "type": "object",
         "properties": {
           "name": {
