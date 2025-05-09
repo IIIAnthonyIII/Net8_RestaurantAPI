@@ -6,7 +6,7 @@ GET {{Restaurants.API_HostAddress}}/api/restaurants
 
 ###
 
-@id=1
+@id=14
 GET {{Restaurants.API_HostAddress}}/api/restaurants/{{id}}
 
 ###
@@ -24,5 +24,9 @@ Content-Type: application/json
   "Street": "123 Main St",
   "PostalCode": "10001"
 }
+
+###
+
+DELETE {{Restaurants.API_HostAddress}}/api/restaurants/{{id}}
 
 ###

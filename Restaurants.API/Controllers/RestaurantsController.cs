@@ -6,6 +6,7 @@ using Restaurants.Application.Restaurants.Dtos;
 using Restaurants.Application.Restaurants.Queries.GetAllRestaurants;
 using Restaurants.Application.Restaurants.Queries.GetRestaurantById;
 using Restaurants.Application.Restaurants.Commands.CreateRestaurant;
+using Restaurants.Application.Restaurants.Commands.DeleteRestaurant;
 
 namespace Restaurants.API.Controllers;
 
@@ -33,5 +34,13 @@ public class RestaurantsController(IMediator mediator) : ControllerBase
     {
         int id = await mediator.Send(createRestaurantCommand);
         return CreatedAtAction(nameof(GetById), new { id }, null);
+    }
+
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteRestaurant (int id)
+    {
+        var isDeleted = await mediator.Send(new DeleteRestaurantCommand(id));
+        if (isDeleted) return NoContent();
+        return NotFound();
     }
 }
