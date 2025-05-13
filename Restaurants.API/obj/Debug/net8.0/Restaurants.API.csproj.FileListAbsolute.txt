@@ -362,3 +362,16 @@ C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\bin\Debug\net
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\bin\Debug\net8.0\SharpGrip.FluentValidation.AutoValidation.Shared.dll
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\bin\Debug\net8.0\MediatR.dll
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\bin\Debug\net8.0\Serilog.dll
+C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\bin\Debug\net8.0\Serilog.Sinks.File.dll

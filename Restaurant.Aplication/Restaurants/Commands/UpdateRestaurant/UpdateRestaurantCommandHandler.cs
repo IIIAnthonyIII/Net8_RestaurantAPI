@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-
 using MediatR;
 using Microsoft.Extensions.Logging;
 using Restaurants.Application.Restaurants.Commands.CreateRestaurant;
@@ -13,7 +12,7 @@ public class UpdateRestaurantCommandHandler (ILogger<CreateRestaurantCommandHand
 {
     public async Task<bool> Handle (UpdateRestaurantCommand request, CancellationToken cancellationToken)
     {
-        logger.LogInformation("Updating restaurant");
+        logger.LogInformation("Updating restaurant: {RestaurantId} con {@UpdateRestaurant}", request.Id, request);
         var restaurant = await restaurantsRepository.GetByIdAsync(request.Id);
         if (restaurant is null) return false;
         mapper.Map(request, restaurant);
