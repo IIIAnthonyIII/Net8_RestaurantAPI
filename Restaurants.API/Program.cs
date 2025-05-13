@@ -23,12 +23,12 @@ var seeders = scope.ServiceProvider.GetRequiredService<IRestaurantSeeder>();
 await seeders.Seed();
 
 // Configure the HTTP request pipeline.
+app.UseSerilogRequestLogging();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.UseSerilogRequestLogging();
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
