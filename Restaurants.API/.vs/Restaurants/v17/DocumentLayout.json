@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurants.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{401FDBDA-8D2F-430F-80B1-5792A19DE915}|Restaurants.API.csproj|c:\\users\\usernew\\documents\\test\\net8_restaurantapi\\restaurants.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{401FDBDA-8D2F-430F-80B1-5792A19DE915}|Restaurants.API.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{401FDBDA-8D2F-430F-80B1-5792A19DE915}|Restaurants.API.csproj|c:\\users\\usernew\\documents\\test\\net8_restaurantapi\\restaurants.api\\restaurants.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{401FDBDA-8D2F-430F-80B1-5792A19DE915}|Restaurants.API.csproj|solutionrelative:restaurants.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{401FDBDA-8D2F-430F-80B1-5792A19DE915}|Restaurants.API.csproj|c:\\users\\usernew\\documents\\test\\net8_restaurantapi\\restaurants.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{401FDBDA-8D2F-430F-80B1-5792A19DE915}|Restaurants.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,17 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Restaurants.API.http",
+              "DocumentMoniker": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurants.API\\Restaurants.API.http",
+              "RelativeDocumentMoniker": "Restaurants.API.http",
+              "ToolTip": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurants.API\\Restaurants.API.http",
+              "RelativeToolTip": "Restaurants.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-13T19:03:56.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurants.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurants.API\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-13T17:46:24.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurants.API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurants.API\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T16:33:32.576Z",
               "EditorCaption": ""

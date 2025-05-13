@@ -1,0 +1,12 @@
+{
+  "@t": "2025-05-13T19:04:04.9668278Z",
+  "@mt": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+  "@r": [ "565.4701" ],
+  "@tr": "11b02277eea97775a862285ac6d10981",
+  "@sp": "bcf23d5fa15f332e",
+  "RequestMethod": "GET",
+  "RequestPath": "/api/restaurants",
+  "StatusCode": 200,
+  "Elapsed": 565.4701,
+  "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware"
+}

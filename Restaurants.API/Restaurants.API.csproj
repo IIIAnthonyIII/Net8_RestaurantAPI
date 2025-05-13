@@ -20,4 +20,6 @@
     <ProjectReference Include="..\Restaurant.Infrastucture\Restaurants.Infrastucture.csproj" />
   </ItemGroup>
 
+  <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
+
 </Project>
