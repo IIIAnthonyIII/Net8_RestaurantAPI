@@ -341,12 +341,6 @@ C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\obj\Debug\net
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\obj\Debug\net8.0\staticwebassets\msbuild.Restaurants.API.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\obj\Debug\net8.0\staticwebassets\msbuild.Restaurants.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\obj\Debug\net8.0\staticwebassets\msbuild.build.Restaurants.API.props
-C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Restaurants.API.props
-C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Restaurants.API.props
-C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\obj\Debug\net8.0\Restaura.7AF479EB.Up2Date
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\obj\Debug\net8.0\Restaurants.API.dll
@@ -375,3 +369,4 @@ C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\bin\Debug\net
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.API\obj\Debug\net8.0\staticwebassets.build.json.cache
