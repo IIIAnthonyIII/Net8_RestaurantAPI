@@ -6,7 +6,7 @@ GET {{Restaurants.API_HostAddress}}/api/restaurants
 
 ###
 
-@id=131
+@id=13
 GET {{Restaurants.API_HostAddress}}/api/restaurants/{{id}}
 
 ###
@@ -33,11 +33,23 @@ DELETE {{Restaurants.API_HostAddress}}/api/restaurants/{{id}}
 
 PATCH {{Restaurants.API_HostAddress}}/api/restaurants/{{id}}
 Content-Type: application/json
-
 {
   "Name": "Test",
   "Description": "Test Update",
   "HasDelivery": false
+}
+
+###
+
+@restaurantId=13
+POST {{Restaurants.API_HostAddress}}/api/restaurants/{{restaurantId}}/dishes
+Content-Type: application/json
+
+{
+  "Name": "New Dish",
+  "Description": "A new dish description",
+  "Price": 9,
+  "KiloCalories": 500
 }
 
 ###

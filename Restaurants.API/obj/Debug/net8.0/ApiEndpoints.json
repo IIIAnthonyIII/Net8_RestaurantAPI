@@ -127,5 +127,26 @@
         "StatusCode": 404
       }
     ]
+  },
+  {
+    "ContainingType": "Restaurants.API.Controllers.DishesController",
+    "Method": "CreateDish",
+    "RelativePath": "api/restaurants/{restaurantId}/dishes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "restaurantId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "createDishCommand",
+        "Type": "Restaurants.Application.Dishes.Commands.CreateDish.CreateDishCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

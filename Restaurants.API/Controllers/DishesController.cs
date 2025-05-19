@@ -1,0 +1,18 @@
+﻿using MediatR;
+using Microsoft.AspNetCore.Mvc;
+using Restaurants.Application.Dishes.Commands.CreateDish;
+
+namespace Restaurants.API.Controllers;
+
+[ApiController]
+[Route("api/restaurants/{restaurantId}/dishes")]
+public class DishesController (IMediator mediator) : ControllerBase
+{
+    [HttpPost]
+    public async Task<IActionResult> CreateDish ([FromRoute] int restaurantId, CreateDishCommand createDishCommand)
+    {
+        createDishCommand.RestaurantId = restaurantId;
+        await mediator.Send(createDishCommand);
+        return Created();
+    }
+}
