@@ -15,7 +15,7 @@ public class CreateDishCommandHandler (ILogger<CreateDishCommandHandler> logger,
     public async Task Handle (CreateDishCommand request, CancellationToken cancellationToken)
     {
         logger.LogInformation("Creando nuevo plato: {@DishRequest}", request);
-        var restaurant = restaurantsRepository.GetByIdAsync(request.RestaurantId)
+        var restaurant = await restaurantsRepository.GetByIdAsync(request.RestaurantId)
             ?? throw new NotFoundException("Plato", request.RestaurantId.ToString());
         var dish = mapper.Map<Dish>(request);
         await dishesRepository.CreateAsync(dish);

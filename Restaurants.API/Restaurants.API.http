@@ -1,12 +1,12 @@
 @host = http://localhost
 @port = 5252
-@Restaurants.API_HostAddress = {{host}}:{{port}}
+@Restaurants.API_HostAddress = http://localhost:5252
 
 GET {{Restaurants.API_HostAddress}}/api/restaurants
 
 ###
 
-@id=13
+@id=12
 GET {{Restaurants.API_HostAddress}}/api/restaurants/{{id}}
 
 ###
@@ -41,7 +41,7 @@ Content-Type: application/json
 
 ###
 
-@restaurantId=1
+@restaurantId=12
 POST {{Restaurants.API_HostAddress}}/api/restaurants/{{restaurantId}}/dishes
 Content-Type: application/json
 
@@ -58,7 +58,11 @@ GET {{Restaurants.API_HostAddress}}/api/restaurants/{{restaurantId}}/dishes
 
 ###
 
-@dishId=2
+@dishId=6
 GET {{Restaurants.API_HostAddress}}/api/restaurants/{{restaurantId}}/dishes/{{dishId}}
+
+###
+
+DELETE {{Restaurants.API_HostAddress}}/api/restaurants/{{restaurantId}}/dishes/{{dishId}}
 
 ###
