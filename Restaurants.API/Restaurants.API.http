@@ -66,3 +66,24 @@ GET {{Restaurants.API_HostAddress}}/api/restaurants/{{restaurantId}}/dishes/{{di
 DELETE {{Restaurants.API_HostAddress}}/api/restaurants/{{restaurantId}}/dishes/{{dishId}}
 
 ###
+
+POST {{Restaurants.API_HostAddress}}/register
+Content-Type: application/json
+
+{
+  "email": "test@gmail.com",
+  "password": "Abc12345@"
+}
+
+###
+
+POST {{Restaurants.API_HostAddress}}/login
+Content-Type: application/json
+
+{
+  "email": "test@gmail.com",
+  "password": "Abc12345@"
+}
+
+###
+

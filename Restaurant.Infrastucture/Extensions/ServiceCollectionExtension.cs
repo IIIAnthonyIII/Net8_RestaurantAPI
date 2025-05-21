@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
+using Restaurants.Domain.Entities;
 using Restaurants.Domain.Repositories;
 using Restaurants.Infrastucture.Persistence;
 using Restaurants.Infrastucture.Repositories;
@@ -15,6 +16,8 @@ public static class ServiceCollectionExtension
         var connectionString = configuration.GetConnectionString("RestaurantDb");
         services.AddDbContext<RestaurantsDBContext>(options => 
             options.UseSqlServer(connectionString).EnableSensitiveDataLogging()); //Se habilita ver data
+        services.AddIdentityApiEndpoints<User>()
+            .AddEntityFrameworkStores<RestaurantsDBContext>();
         services.AddScoped<IRestaurantSeeder, RestaurantSeeder>();
         services.AddScoped<IRestaurantsRepository, RestaurantsRepository>();
         services.AddScoped<IDishesRepository, DishesRepository>();

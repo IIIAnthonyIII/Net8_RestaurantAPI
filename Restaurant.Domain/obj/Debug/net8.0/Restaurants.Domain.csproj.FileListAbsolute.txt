@@ -21,3 +21,4 @@ C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurant.Domain\obj\Debug\n
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurant.Domain\obj\Debug\net8.0\Restaurants.Domain.pdb
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurant.Domain\obj\Debug\net8.0\ref\Restaurants.Domain.dll
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurant.Domain\obj\Debug\net8.0\Restaurants.Domain.sourcelink.json
+C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurant.Domain\obj\Debug\net8.0\Restaurants.Domain.csproj.AssemblyReference.cache
