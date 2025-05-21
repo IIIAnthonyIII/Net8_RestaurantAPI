@@ -16,8 +16,8 @@ public class DishesController (IMediator mediator) : ControllerBase
     public async Task<IActionResult> CreateDish ([FromRoute] int restaurantId, CreateDishCommand createDishCommand)
     {
         createDishCommand.RestaurantId = restaurantId;
-        await mediator.Send(createDishCommand);
-        return Created();
+        var dishId = await mediator.Send(createDishCommand);
+        return CreatedAtAction(nameof(GetByIdForRestaurant), new { restaurantId, dishId }, null);
     }
 
     [HttpGet]
