@@ -24,6 +24,7 @@ await seeders.Seed();
 
 // Configure the HTTP request pipeline.
 app.UseMiddleware<ErrorHandlingMiddleware>();
+app.UseMiddleware<RequestTimeLoggingMiddleware>();
 app.UseSerilogRequestLogging();
 if (app.Environment.IsDevelopment())
 {
