@@ -6,14 +6,17 @@ using Restaurants.Application.Restaurants.Commands.CreateRestaurant;
 using Restaurants.Application.Restaurants.Commands.DeleteRestaurant;
 using Restaurants.Application.Restaurants.Commands.UpdateRestaurant;
 using Restaurants.Application.Restaurants.Dtos;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Restaurants.API.Controllers;
 
 [ApiController]
 [Route("api/restaurants")]
+[Authorize] //Se puede agregar el atributo a nivel de clase o a nivel de metodo
 public class RestaurantsController(IMediator mediator) : ControllerBase
 {
     [HttpGet]
+    [AllowAnonymous] //Permite el acceso a la api sin autenticacion
     //Si se agrega en el ActionResult aparece el tipo de objeto a recibir en swagger
     public async Task<ActionResult<IEnumerable<RestaurantDto>>> GetAll()
     {
