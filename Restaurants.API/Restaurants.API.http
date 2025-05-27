@@ -1,10 +1,9 @@
 @host = http://localhost
 @port = 5252
 @Restaurants.API_HostAddress = http://localhost:5252
-@token = CfDJ8Oqj69flhYtOkYhVNrXQ30kHuysB_nG4Cl2DZxoTgFFEFRhMwOij31rQ4OdrqrPhTdvL8tD7yLoDOCk6znzjIVZZZo4MiGnbvNv0ZXxxjMPAlSr4kebqzxDjPKsvsJ9SMgh8yuqy8lneZMfqeFwFphRtk5ic8KiZwCHqm0meEpXPdu5EJCjkfmwjAs49EqOkdGHpcqhMHKocaBb0xxzg35HvNaq8PYEnRKQuDyHGFbh5CkkfdNGXjTsZJPLVouW_4a6wfzQfkSGxkkfDGAuZ1YuGtLWF_mQIeyRrXg7g_iH_zQ_1fxe9CnGi9pd-kWDuRfMVpWTc9maknO8Q8lMQYUywHXBlrhFwEUDAHJviB3sQSYEcCcJJTUPJr8yyzQK1riyDLeilrACoSmHN1uKfdIAjSOu2nSV05G0_olTyXv-RdQH_V9n_lopqu9lO7X9Asnv7TgwsnNqOPurB6_fJ5ixr3r1gD8xm3yZahTbqWWEcF0OjIaGHr673_YuV5UgnAcMVKITNYdnQOsTGenwHHSXPRMvFPGC0PyocVlDBXE_Z6cTZzf7WUrvMcOiYqvs73nfb8C5w2qZVMTAd8Kfz0UUyMUMDQfX8pqbh49vFRMDxBz_FePS1mTSpc7Msn-JLLhMgMdd9IVzlLHS0PlG-flPzkOCEpI3KjVFx0HFOa1EL8DsCQ732e-K8BQw_Vn44ig
+@token = CfDJ8Oqj69flhYtOkYhVNrXQ30mMVnfaetvJRCjjBgdUuCWsk74z9kz7ufggzAcV-llFTB22BJw9H7LhJYNWOvkblSF5osLhj4xFhSFTidSXjOZKhnPErdcrU3hcgH-jdUfZia1OVZA68YSsiHn4qun6uhibKfPMV2WwISroB9aVSedzuH01GdaXAwA4jKZpeJ8gIK8BwV97KW0Ntr2-yKkai1ovstRcPNrxTagFeeNFVXgqHnzx-n_sJInK2q0vxVlP7Ponp25TgfRLOUR4qcMBme40d5qFivRxg3GK_WhLbvRLM6mHDtU1KpX869hEkyJ8PRMSiuVaSSToVZWOKvAyDuZwrEji-UPuthC6eeNx6Mibu5uwGVMLMIjj_kiRmkWx5WVe3ntVCFlZcSKUqJzkaWeMaEu1cWlSXliMux_qp7_pqSdzIONAur7hT7TnRZ5VLYg0GU6xorFjBl7WMLzqJu5KhlqvHVlC28eyrT9e5SoOneWSZRZpG1yV55fPL-tnYj0_u9ZV3nEZj4mEj7eURD8G6JrYZsdS472lBDWNaHv7A6mGmCmrh2xh8x4i8-ZH9GksiiNuVpZjG6_iMF9AWcOR6O_RHeT9r2F_UibWDjUgEnSLeHXmApioIBJ25ic6qHI8SXSLYC72YyvKtbp3rYY8WquzOpFVvxzt00WGg26bImGIzpDmAM-fWyFDnBQEu3cA3UPYnI1KP-XoU6tnrkiKrj5GM5ZmmoJlJo4hE3xrV-jn-YdDCaft56vX2bOEeOCA2vr7TNsUP5EHRafCfSWFRzx7t7syV6RDe2Hfliqj
 
 GET {{Restaurants.API_HostAddress}}/api/restaurants
-
 ###
 
 @id=12
@@ -15,16 +14,17 @@ Authorization: Bearer {{token}}
 
 POST {{Restaurants.API_HostAddress}}/api/restaurants
 Content-Type: application/json
+Authorization: Bearer {{token}}
 {
-  "Name": "New Restaurant",
+  "Name": "New Restaurant2",
   "Description": "A new restaurant description",
-  "Category": "",
+  "Category": "rapida",
   "HasDelivery": true,
-  "ContactEmail": "testgmail.com",
+  "ContactEmail": "test@gmail.com",
   "ContactNumber": "123456789",
   "City": "New York",
   "Street": "123 Main St",
-  "PostalCode": "10001"
+  "PostalCode": "10-001"
 }
 
 ###
@@ -71,9 +71,8 @@ DELETE {{Restaurants.API_HostAddress}}/api/restaurants/{{restaurantId}}/dishes/{
 
 POST {{Restaurants.API_HostAddress}}/api/identity/register
 Content-Type: application/json
-
 {
-  "email": "test@gmail.com",
+  "email": "owner@gmail.com",
   "password": "Abc12345@"
 }
 
@@ -81,9 +80,12 @@ Content-Type: application/json
 
 POST {{Restaurants.API_HostAddress}}/api/identity/login
 Content-Type: application/json
-
+# "email": "test@gmail.com",
+# "email": "admin@gmail.com",
+# "email": "user@gmail.com",
+# "email": "owner@gmail.com",
 {
-  "email": "test@gmail.com",
+  "email": "owner@gmail.com",
   "password": "Abc12345@"
 }
 
