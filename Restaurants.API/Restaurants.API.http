@@ -91,3 +91,12 @@ Content-Type: application/json
 
 ###
 
+POST {{Restaurants.API_HostAddress}}/api/identity/userRole
+Content-Type: application/json
+Authorization: Bearer {{token}}
+{
+  "userEmail": "test@gmail.com",
+  "roleName": "User"
+}
+
+###
