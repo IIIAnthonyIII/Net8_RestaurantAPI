@@ -29,7 +29,7 @@ internal class RestaurantSeeder (RestaurantsDBContext dBContext) : IRestaurantSe
         List<Restaurant> restaurants = [
             new ()
             {
-                Name = "Restaurant A",
+                Name = "Restaurant A",  
                 Category = "Italian",
                 Description = "A cozy Italian restaurant with a warm atmosphere.",
                 ContactEmail = "contact@gmail.com",
