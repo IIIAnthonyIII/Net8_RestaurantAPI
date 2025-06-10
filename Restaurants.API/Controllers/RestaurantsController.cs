@@ -1,13 +1,14 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Restaurants.Application.Restaurants.Queries.GetAllRestaurants;
-using Restaurants.Application.Restaurants.Queries.GetRestaurantById;
+using Restaurants.Application.Constants;
 using Restaurants.Application.Restaurants.Commands.CreateRestaurant;
 using Restaurants.Application.Restaurants.Commands.DeleteRestaurant;
 using Restaurants.Application.Restaurants.Commands.UpdateRestaurant;
 using Restaurants.Application.Restaurants.Dtos;
-using Microsoft.AspNetCore.Authorization;
-using Restaurants.Application.Constants;
+using Restaurants.Application.Restaurants.Queries.GetAllRestaurants;
+using Restaurants.Application.Restaurants.Queries.GetRestaurantById;
+using Restaurants.Infrastucture.Authorization;
 
 namespace Restaurants.API.Controllers;
 
@@ -26,11 +27,10 @@ public class RestaurantsController(IMediator mediator) : ControllerBase
     }
 
     [HttpGet("{id}")]
-    public async Task<ActionResult<RestaurantDto>> GetById (int id)
+    [Authorize(Policy = PolicyNames.HasNationality)] //Solo si tiene nacionalidad en los claims accede
+    public async Task<ActionResult<RestaurantDto>> GetById ([FromRoute] int id)
     {
-        var userId = User.Claims.FirstOrDefault(c => c.Type == "<id claim type>")!.Value;
         var restaurant = await mediator.Send(new GetRestaurantByIdQuery(id));
-        if (restaurant == null) return NotFound();
         return Ok(restaurant);
     }
 
