@@ -18,6 +18,11 @@ public class UserContext (IHttpContextAccessor httpContextAccessor) : IUserConte
         var userId = user.FindFirst(c => c.Type == ClaimTypes.NameIdentifier)!.Value;
         var email = user.FindFirst(c => c.Type == ClaimTypes.NameIdentifier)!.Value;
         var roles = user.Claims.Where(c => c.Type == ClaimTypes.Role)!.Select(c => c.Value);
-        return new CurrentUser(userId, email, roles);
+        var nationality = user.FindFirst(c => c.Type == "Nationality")?.Value;
+        var dateOfBirdString = user.FindFirst(c => c.Type == "DateOfBirth")?.Value;
+        var dateOfBird = dateOfBirdString == null 
+            ? (DateOnly?)null 
+            : DateOnly.ParseExact(dateOfBirdString, "yyyy-mm-dd");
+        return new CurrentUser(userId, email, roles, nationality, dateOfBird);
     }
 }

@@ -1,7 +1,7 @@
 @host = http://localhost
 @port = 5252
 @Restaurants.API_HostAddress = http://localhost:5252
-@token = CfDJ8Oqj69flhYtOkYhVNrXQ30nYRHgGu4sSznZHVc0jN81t8THDVp0E5usMwwfWGijHZuqGusUraBEB7wWYlbmZo6nY0DkZERWLmTQDZWNkO6CFBwNBA6zSVAOvcAxFRyTCpEW16RllLmnphjnnh8Y92DWJvHU7yQLfv818NL97fqKb_Jsq9wi2G4U9Su853iFbh-o1pIlXGfGEPoLnWRxhBnXP_HaV5WpSZrXlsHL4c7NndNA7GH9xSzAB52E71It-0W_LBOBz1uRLr-g9hPlMqSLjb1g4UmCNWjDiQClS5LckHpzjtwKxQmlqkwgyXXj-bIrcQJCgUjxWW8OnqvQ5SzqO4lCDlr1drgE9oYxWVUHz0wDm6Q26PcZwt2Ts67dj1N0SBpYswbso2w3wCZLGcpAndNho0T7wyYlXraODj52SommoqgaI9yD33p-hFm9haFUIf7nuYR8S-kZvZdanS98QBMtd0Vk8NEZh02929qFcqSJ32t6FK6VbhGvidG-Zg9H87HUW38Sw7I994yRk41XH8vmvNYksbxmZOmUyY53-tbQbbsJdyAMkyjcWOzrkQvBhKvS596xpzEJYGYCEhj1zo-U2xhoShWb3fT4nh8RpOG3otTHSXtG_vTSyTGrSflDGxb-YQQkW4CSxbERm49nmTqgfKOoPvvmFweOEOcilcnuwwGRIxrZz1ZyDqD4UwRvRZkSlx3UiRFidp9GoqhvL02VlCLqKx9ZM3mN9Ain47mAXEoW8BcPyEMAL3yWmUVQDzgwpNoJh-g_wzSWUEEYqDDXFhhdzMkIQrfYwVc7J2OUxLHIj_nl_4W6Vzn6xhlMaBLv4jM15DdxWmNjzWEW8OpyEq5-ds2DJSr0XLPKNmczHVPHRrJeqELgQypy9dA
+@token = CfDJ8Oqj69flhYtOkYhVNrXQ30kwcQJk1oKVLZ1coFqy0KmHAGY8gVbYCUVk8KN1Hdjq3mgLM33iBtngtlOo7OTnn5m0UJYnGgZ-GpQqVSz7LmE9wzDn_HEIFAQjmPmGwrrhSvlzeVhw-XtyFn642ow44QQA7fB53qHW9_3931y7r0KJgp4txWTpmmlL88PF3oRKRs5-EGc6-IepRWJFZj6cCSzKHloiQk5CwRVkJtfpBUR8VTKLdxSHTO4Krj9P80Hztep7Z0SAbV8Uru45e20YVF5sO9EkEIrGWp2we2OzAxykkWNOVrdvU6Ys2X6csJuV83MdR-OcuTJXtDsQf_1E9Or4HUYH3DXmf2tJARxSbGjxAsK-EphQ0Xp7NV9HG0ZhmpXztD0aVJa-2nK1KHG74OeH-BBws2wQKFejd8hufoYBulTxdcKHGePyunOmgaoRbI5W0cl73PXZEOXz8rAjT5ZDfYNOESEog39GgDa8g3mr5LcGxrOImVGrK2PQGyFCPUOzS04BDcEJOScV7B0X3yDOVRVxRXZBwT2uEyR_TjnycGmjl3LLGT5JE0Ne2MRxPuONIsZzPdSveE5O9tIbHcQrAKrHxWPH3YKN18ZD6YkvDzYaEq2xdRXb90Kqy3CgBrLRbTgqoZY1p6_ArJT9uls9PnlqssmqLa3TBC60xG3ftHtts27h4AF1ec9Y-78u9rCOb3h2kX86YEMe7Ii_oAz7KcIHs6-bE3My-ZdOyIY2uBQLc6JNR0EED68HOZMkvs1F1yJybUZClGuBIQpHl9Y
 
 GET {{Restaurants.API_HostAddress}}/api/restaurants
 Authorization: Bearer {{token}}
@@ -58,6 +58,7 @@ Content-Type: application/json
 ###
 
 GET {{Restaurants.API_HostAddress}}/api/restaurants/{{restaurantId}}/dishes
+Authorization: Bearer {{token}}
 
 ###
 
@@ -86,7 +87,7 @@ Content-Type: application/json
 # "email": "user@gmail.com",
 # "email": "owner@gmail.com",
 {
-  "email": "owner@gmail.com",
+  "email": "test@gmail.com",
   "password": "Abc12345@"
 }
 
@@ -108,7 +109,7 @@ Content-Type: application/json
 
 {
   "Nationality": "French",
-  "DateOfBirth": "2000-02-01"
+  "DateOfBirth": "2010-06-01"
 }
 
 ###

@@ -1,15 +1,18 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Restaurants.Application.Dishes.Commands.CreateDish;
 using Restaurants.Application.Dishes.Commands.DeleteDish;
 using Restaurants.Application.Dishes.Dtos;
 using Restaurants.Application.Dishes.Queries.GetByIdForRestaurant;
 using Restaurants.Application.Dishes.Queries.GetDishesForRestaurant;
+using Restaurants.Infrastucture.Authorization;
 
 namespace Restaurants.API.Controllers;
 
 [ApiController]
 [Route("api/restaurants/{restaurantId}/dishes")]
+[Authorize]
 public class DishesController (IMediator mediator) : ControllerBase
 {
     [HttpPost]
@@ -21,6 +24,7 @@ public class DishesController (IMediator mediator) : ControllerBase
     }
 
     [HttpGet]
+    [Authorize(Policy = PolicyNames.AtLeast20)] //Solo si tiene al menos 20 años accede
     public async Task<ActionResult<IEnumerable<DishDto>>> GetAllForRestaurant ([FromRoute] int restaurantId)
     {
         var dishes = await mediator.Send(new GetDishesForRestaurantQuery(restaurantId));
