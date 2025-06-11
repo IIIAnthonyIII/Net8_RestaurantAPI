@@ -1,23 +1,23 @@
 @host = http://localhost
 @port = 5252
 @Restaurants.API_HostAddress = http://localhost:5252
-@token = CfDJ8Oqj69flhYtOkYhVNrXQ30kwcQJk1oKVLZ1coFqy0KmHAGY8gVbYCUVk8KN1Hdjq3mgLM33iBtngtlOo7OTnn5m0UJYnGgZ-GpQqVSz7LmE9wzDn_HEIFAQjmPmGwrrhSvlzeVhw-XtyFn642ow44QQA7fB53qHW9_3931y7r0KJgp4txWTpmmlL88PF3oRKRs5-EGc6-IepRWJFZj6cCSzKHloiQk5CwRVkJtfpBUR8VTKLdxSHTO4Krj9P80Hztep7Z0SAbV8Uru45e20YVF5sO9EkEIrGWp2we2OzAxykkWNOVrdvU6Ys2X6csJuV83MdR-OcuTJXtDsQf_1E9Or4HUYH3DXmf2tJARxSbGjxAsK-EphQ0Xp7NV9HG0ZhmpXztD0aVJa-2nK1KHG74OeH-BBws2wQKFejd8hufoYBulTxdcKHGePyunOmgaoRbI5W0cl73PXZEOXz8rAjT5ZDfYNOESEog39GgDa8g3mr5LcGxrOImVGrK2PQGyFCPUOzS04BDcEJOScV7B0X3yDOVRVxRXZBwT2uEyR_TjnycGmjl3LLGT5JE0Ne2MRxPuONIsZzPdSveE5O9tIbHcQrAKrHxWPH3YKN18ZD6YkvDzYaEq2xdRXb90Kqy3CgBrLRbTgqoZY1p6_ArJT9uls9PnlqssmqLa3TBC60xG3ftHtts27h4AF1ec9Y-78u9rCOb3h2kX86YEMe7Ii_oAz7KcIHs6-bE3My-ZdOyIY2uBQLc6JNR0EED68HOZMkvs1F1yJybUZClGuBIQpHl9Y
+@token = CfDJ8Oqj69flhYtOkYhVNrXQ30nWmou_ajYwmSh_si6oqAnSlylUF_DzMcXV90-oXNSY6ZdhSOEsOSRvgA1M_ECKae6UAVLuezlth_VXWK_Up6OY7ozbB2wIxzg9hzVVZLj4rj9P2oL6UKSkwf4nF9MBvZrx1A9I_IYYEZR7aYtGpgmH3lOut4K9W9aqVtq6yKT3MRn3xBS9h7kGaXx9noulK6RlFd5OA92KU6hiEgjWay5VkxiLbgcoiAidTp1IG04jqxpvwAPtj1jqB_tG20eZ05ZMH_mP2Rdo-d-Upq51EeZp1Ox_bvRMHIoDD38TTvdbkGnciSnAyVp_8nFi8S8xwbxnKhQCh8DnyMj6h2m8fBj3A8m2raDXzfKEJmEDDIgTZzQQEZW8BBxS1fdoHbftXBLnAhDz9x7DT7mPdi-JfbTixmZz5i-kPIt8TM2JOEwtczvxeA9zFNuwglSW6RWTdaKAphtns8foH5c2euJAFnzVHAPYPMe1_LRYyBg45ZwVvyPUS0RjKFfg23JyvAM_Z8iXvFtpVvzPq1jukh40ejDdsvmZj1IESGEUjLT7pPXAqGCtFbyXvq7FrlTJVr2ZXSInOXGoL1wPadeuWwzOSky8l3NKoNpeJKEVtCp9MgquNPsR7GFueFVvguF5WV7xzBlBPv9p_l-Asg4uo09ngaxfZvDoMXpn8sWL0krcG3gL7xarqJhX7gC06h_XlUkHqIE-T4lJYBaaL51wgKrP142f9v0gHOQmHASwKPTTa-bCYKmocTB1dWNcAIwVkH0ATknQGY_9bblwLm3yTLLvA1TVPvhpY4EkafA8OFjHYDzHdeWjMsO6TTYlmNYy0OLyXa5pjdmSlsHvjcrPaEw6SYd2NDKcopyN3kQIvVYFMI1l_w
 
 GET {{Restaurants.API_HostAddress}}/api/restaurants
-Authorization: Bearer {{token}}
+# Authorization: Bearer {{token}}
 ###
 
 @id=12
 GET {{Restaurants.API_HostAddress}}/api/restaurants/{{id}}
-Authorization: Bearer {{token}}
+# Authorization: Bearer {{token}}
 
 ###
 
 POST {{Restaurants.API_HostAddress}}/api/restaurants
 Content-Type: application/json
-Authorization: Bearer {{token}}
+# Authorization: Bearer {{token}}
 {
-  "Name": "New Restaurant2",
+  "Name": "Owner Restaurant",
   "Description": "A new restaurant description",
   "Category": "rapida",
   "HasDelivery": true,
