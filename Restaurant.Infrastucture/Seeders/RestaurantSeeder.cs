@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using Restaurants.Application.Constants;
+using Restaurants.Domain.Constants;
 using Restaurants.Domain.Entities;
 using Restaurants.Infrastucture.Persistence;
 

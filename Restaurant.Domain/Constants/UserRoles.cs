@@ -1,4 +1,4 @@
-﻿namespace Restaurants.Application.Constants;
+﻿namespace Restaurants.Domain.Constants;
 
 public class UserRoles
 {

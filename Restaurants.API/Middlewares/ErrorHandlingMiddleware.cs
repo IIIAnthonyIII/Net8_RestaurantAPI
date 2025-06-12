@@ -14,6 +14,11 @@ public class ErrorHandlingMiddleware (ILogger<ErrorHandlingMiddleware> logger) :
             logger.LogWarning(notFound.Message);
             context.Response.StatusCode = 404;
             await context.Response.WriteAsync(notFound.Message);
+        } catch (ForbidException forbid)
+        {
+            logger.LogWarning(forbid.Message);
+            context.Response.StatusCode = 403;
+            await context.Response.WriteAsync("Acceso forbidden...");
         } catch (Exception ex)
         {
             logger.LogError(ex, ex.Message);
