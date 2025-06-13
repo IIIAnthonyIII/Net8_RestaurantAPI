@@ -10,24 +10,22 @@ public class MinimumAgeRequirementHandler (ILogger<MinimumAgeRequirementHandler>
     protected override Task HandleRequirementAsync (AuthorizationHandlerContext context, MinimumAgeRequirement requirement)
     {
         var currentUser = userContext.GetCurrentUser();
-        if (currentUser?.DateOfBirth == null)
+        if (currentUser == null)
         {
-            logger.LogWarning("El usuario no se ha encontrado");
+            logger.LogWarning("El usuario no se ha autenticado");
             context.Fail();
             return Task.CompletedTask;
         }
         logger.LogInformation("Usuario: {Email}, Fecha de nacimiento: {DOB} - Handling MinimumAgeRequirement",
             currentUser.Email, currentUser.DateOfBirth);
         var today = DateOnly.FromDateTime(DateTime.Today);
-        var minAgeDate = currentUser.DateOfBirth.Value.AddYears(requirement.MinimumAge);
+        var minAgeDate = currentUser.DateOfBirth!.Value.AddYears(requirement.MinimumAge);
         if (minAgeDate <= today)
         {
             logger.LogWarning("Authorization succeded");
             context.Succeed(requirement);
         } else
-        {
             context.Fail();
-        }
         return Task.CompletedTask;
     }
 }

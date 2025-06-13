@@ -18,7 +18,8 @@ namespace Restaurants.API.Controllers;
 public class RestaurantsController(IMediator mediator) : ControllerBase
 {
     [HttpGet]
-    [AllowAnonymous] //Permite el acceso a la api sin autenticacion
+    [Authorize(Policy = PolicyNames.CreateAtLeast2Restaurants)]
+    //[AllowAnonymous] //Permite el acceso a la api sin autenticacion
     //Si se agrega en el ActionResult aparece el tipo de objeto a recibir en swagger
     public async Task<ActionResult<IEnumerable<RestaurantDto>>> GetAll()
     {

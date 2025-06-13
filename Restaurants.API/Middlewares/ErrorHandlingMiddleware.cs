@@ -18,7 +18,7 @@ public class ErrorHandlingMiddleware (ILogger<ErrorHandlingMiddleware> logger) :
         {
             logger.LogWarning(forbid.Message);
             context.Response.StatusCode = 403;
-            await context.Response.WriteAsync("Acceso forbidden...");
+            await context.Response.WriteAsync("Acceso prohibido...");
         } catch (Exception ex)
         {
             logger.LogError(ex, ex.Message);

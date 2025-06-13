@@ -1,13 +1,13 @@
 @host = http://localhost
 @port = 5252
 @Restaurants.API_HostAddress = http://localhost:5252
-@token = CfDJ8Oqj69flhYtOkYhVNrXQ30m-QRxzjflz6iJy8HEvVJ3Txlvjd_QssJ3LJ8HA-gqIXekZ_wgPOEq1SRQQ8z2Zw2AfZYI7OhuxmYp3IBNTZcXmR4yZCiaENTySy-szcUztbV9H2U8jTHlqceaTOgNPX0yHF48oJP4lBhPe-tMdUTlxi002IKwJOqWiKdsIEPSPJoKCw9r9gDZp_xFwFN5BEenEH6n60K2-BWGhpE0uLC7p17cLk6zkAoynMtcvC9YBXnPfHSdgqwVVrEP1lsmPQhenlrNVvOxDL-hxBykohDr1JP5tfftdLZkFcEIG1s5LnT21GhwUHAay7_eFV-iQKH1rOHBKl8v7BHnGmWnYtLMkD-7fr8hycw-e6jL8AeIA-46QeGlqp-oPvTcC9LVsDH52XFjiF8I7gdK2T9P4abjmsfA6DrS5SB-jXcU9wdVRiE5p9FoUFRCPbYaQm-ZE6hKJofuLP87qGd48_76sx3ZZWI44j4MbdEtfeGRpEi9CpWq6mMuGysslJ9JA8bZG8tEBgsBXm_MYd0NSJ3HnZ8IkUOtI0OuzODcSLIddMFwxHlvea0YUMIcL2MzCerdZAgjhuYFydthWDtCvZ_W1dlsxWbOVG_w5yS3W2_u4IO8aUHDo1kyOzIpEkn3gn-0Mt35IaKxAPl5vUOovvSHgpk9WJEsZJJlLadQ_kCIqRdALziCqQw9E2pGRnPnSMoow7dkKfh_50VaICm_R4RAbqTklZNcJkmtb9j83P9bQD1DtQR0zIUIvkvcJrWLV8BHEYvE_o__S2r4BIrgdjJiMYbLz0orcH3Pc-LduthS410zU7Q2__7cm6A2EPly0xqIXHDI96lYNgpimcBzfyTD6EZrveo4LACMdaKpxI3sGjsjMYg
+@token = CfDJ8Oqj69flhYtOkYhVNrXQ30n38HZJIRHkfIzagyw_iy7BP94nIZF6-WqPsPs-1U72VlyWviZgBokn_JpiLhz4ZwdSxxXes7thEiaHmM8Cug9y8sq3Aw-7jlWFOBKM-KV_7Pfj6ckuBxR0vd1Qxt5N6Kzvoz8lyZPdDiD3jwSJNF04X1ntKNF52vP7WkkJ-2dKFugcz-4nEgiQe298bVd_TvrpK1H8hONI9Konqu5pvi8UleteEqHQCa44NQUsV5yxuSXIpBpM0jqrooWzzkZi4fFSzKekTwcsCayp5c67IQ9H55c9E1nw7mmxXg44L41fJ2b7MVHkV3sSF_CNLO76SwYk6tc9kHGhuD7b_Ubw29JpS82FesEhMWr0ohM5LZcVadeUx9ip93HOtg-j_9Rm7a38aE1SM6T41P49vHm2t8NCFpofnoiUGSnYSzSEslUILWWDb-IvSMkjydANxFhrRCLjULQVe6pRc39TFDYOn3MFbrfIAOi4RaHJ2dR4l6CdqiR_K-tRbO19Z3IixtnrM7ZxQ3YApHQ9a5QFfvemCG3igih3TL4Le1aVdo-TUL05bW4miucPVxWL1WZx3DIVdflw2JJ17DsKMSaEUca4F9sDFtXJM-gEYjNc_Go2of98jgjO0c87Za-gLDt9CZB-idlwYuNk9qlWczVyK2iyhukSaEgRVREbp7glTWPDBLHsR8txeTstbWiQXjpxJ01txioidp5D3uIQ9NCfI-GCAEzDtzHkMhHG0RxiiPD0QCSH0eiJLoueLKFglKD7nfudw9FAEqKBpP5WQjhLEPZWaZeggWCbjwffz2a5x4ddDKyyYVK9W-n5YW8ZsOcy2T9n2i4_sXkKW589bJ1BQP1KUP9vgrzISBmMPIKMoWqgOu8bag
 
 GET {{Restaurants.API_HostAddress}}/api/restaurants
-# Authorization: Bearer {{token}}
+Authorization: Bearer {{token}}
 ###
 
-@id=8
+@id=21
 GET {{Restaurants.API_HostAddress}}/api/restaurants/{{id}}
 Authorization: Bearer {{token}}
 
@@ -15,9 +15,9 @@ Authorization: Bearer {{token}}
 
 POST {{Restaurants.API_HostAddress}}/api/restaurants
 Content-Type: application/json
-# Authorization: Bearer {{token}}
+Authorization: Bearer {{token}}
 {
-  "Name": "Owner Restaurant",
+  "Name": "Owner2 Restaurant2",
   "Description": "A new restaurant description",
   "Category": "rapida",
   "HasDelivery": true,
@@ -76,7 +76,7 @@ DELETE {{Restaurants.API_HostAddress}}/api/restaurants/{{restaurantId}}/dishes/{
 POST {{Restaurants.API_HostAddress}}/api/identity/register
 Content-Type: application/json
 {
-  "email": "owner@gmail.com",
+  "email": "owner2@gmail.com",
   "password": "Abc12345@"
 }
 
@@ -88,8 +88,9 @@ Content-Type: application/json
 # "email": "admin@gmail.com",
 # "email": "user@gmail.com",
 # "email": "owner@gmail.com",
+# "email": "owner2@gmail.com",
 {
-  "email": "owner@gmail.com",
+  "email": "owner2@gmail.com",
   "password": "Abc12345@"
 }
 
@@ -99,8 +100,8 @@ POST {{Restaurants.API_HostAddress}}/api/identity/userRole
 Content-Type: application/json
 Authorization: Bearer {{token}}
 {
-  "userEmail": "test@gmail.com",
-  "roleName": "User"
+  "userEmail": "owner2@gmail.com",
+  "roleName": "Owner"
 }
 
 ###
@@ -110,8 +111,8 @@ Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
-  "Nationality": "French",
-  "DateOfBirth": "2010-06-01"
+  "Nationality": "Ecuadorian        ",
+  "DateOfBirth": "2012-06-01"
 }
 
 ###
