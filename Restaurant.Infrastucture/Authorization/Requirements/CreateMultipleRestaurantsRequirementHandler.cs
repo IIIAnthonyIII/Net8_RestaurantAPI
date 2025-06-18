@@ -13,7 +13,7 @@ public class CreateMultipleRestaurantsRequirementHandler (ILogger<CreateMultiple
     {
         var currentUser = userContext.GetCurrentUser();
         if (currentUser == null) context.Fail();
-        var restaurants = await restaurantsRepository.GetAllAsync();
+        var restaurants = await restaurantsRepository.GetAllMActhingAsync();
         var restaurantsCount = restaurants.Count(r => r.OwnerId == currentUser!.Id);
         if (restaurantsCount >= requirement.MinimumRestaurantCreate)
             context.Succeed(requirement);
@@ -22,6 +22,6 @@ public class CreateMultipleRestaurantsRequirementHandler (ILogger<CreateMultiple
             logger.LogInformation("El propietario {Email} no tiene suficientes restaurantes creados: {Count} < {Minimum}",
                 currentUser!.Email, restaurantsCount, requirement.MinimumRestaurantCreate);
             context.Fail();
-        } 
+        }
     }
 }

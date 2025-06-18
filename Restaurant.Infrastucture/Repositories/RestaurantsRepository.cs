@@ -7,7 +7,7 @@ namespace Restaurants.Infrastucture.Repositories;
 
 internal class RestaurantsRepository (RestaurantsDBContext dBContext) : IRestaurantsRepository
 {
-    public async Task<IEnumerable<Restaurant>> GetAllAsync ()
+    public async Task<IEnumerable<Restaurant>> GetAllMActhingAsync ()
     {
         var restaurants = await dBContext.Restaurants.ToListAsync();
         return restaurants;
@@ -31,4 +31,15 @@ internal class RestaurantsRepository (RestaurantsDBContext dBContext) : IRestaur
         await dBContext.SaveChangesAsync();
     }
     public async Task SaveChanges () => await dBContext.SaveChangesAsync();
+
+    public async Task<IEnumerable<Restaurant>> GetAllMacthingAsync (string? searchPhrase)
+    {
+        var searchPhraseLower = searchPhrase?.ToLower();
+        var restaurants = await dBContext
+            .Restaurants
+            .Where(r => searchPhraseLower == null || (r.Name.ToLower().Contains(searchPhraseLower) ||
+                                                      r.Description.ToLower().Contains(searchPhraseLower)))
+            .ToListAsync();
+        return restaurants;
+    }
 }
