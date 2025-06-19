@@ -3,7 +3,7 @@
 @Restaurants.API_HostAddress = http://localhost:5252
 @token = CfDJ8Oqj69flhYtOkYhVNrXQ30n38HZJIRHkfIzagyw_iy7BP94nIZF6-WqPsPs-1U72VlyWviZgBokn_JpiLhz4ZwdSxxXes7thEiaHmM8Cug9y8sq3Aw-7jlWFOBKM-KV_7Pfj6ckuBxR0vd1Qxt5N6Kzvoz8lyZPdDiD3jwSJNF04X1ntKNF52vP7WkkJ-2dKFugcz-4nEgiQe298bVd_TvrpK1H8hONI9Konqu5pvi8UleteEqHQCa44NQUsV5yxuSXIpBpM0jqrooWzzkZi4fFSzKekTwcsCayp5c67IQ9H55c9E1nw7mmxXg44L41fJ2b7MVHkV3sSF_CNLO76SwYk6tc9kHGhuD7b_Ubw29JpS82FesEhMWr0ohM5LZcVadeUx9ip93HOtg-j_9Rm7a38aE1SM6T41P49vHm2t8NCFpofnoiUGSnYSzSEslUILWWDb-IvSMkjydANxFhrRCLjULQVe6pRc39TFDYOn3MFbrfIAOi4RaHJ2dR4l6CdqiR_K-tRbO19Z3IixtnrM7ZxQ3YApHQ9a5QFfvemCG3igih3TL4Le1aVdo-TUL05bW4miucPVxWL1WZx3DIVdflw2JJ17DsKMSaEUca4F9sDFtXJM-gEYjNc_Go2of98jgjO0c87Za-gLDt9CZB-idlwYuNk9qlWczVyK2iyhukSaEgRVREbp7glTWPDBLHsR8txeTstbWiQXjpxJ01txioidp5D3uIQ9NCfI-GCAEzDtzHkMhHG0RxiiPD0QCSH0eiJLoueLKFglKD7nfudw9FAEqKBpP5WQjhLEPZWaZeggWCbjwffz2a5x4ddDKyyYVK9W-n5YW8ZsOcy2T9n2i4_sXkKW589bJ1BQP1KUP9vgrzISBmMPIKMoWqgOu8bag
 
-GET {{Restaurants.API_HostAddress}}/api/restaurants?searchPhrase=Owner2
+GET {{Restaurants.API_HostAddress}}/api/restaurants?searchPhrase=a&pageSize=5
 Authorization: Bearer {{token}}
 ###
 
@@ -111,7 +111,7 @@ Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
-  "Nationality": "Ecuadorian        ",
+  "Nationality": "Ecuadorian",
   "DateOfBirth": "2012-06-01"
 }
 

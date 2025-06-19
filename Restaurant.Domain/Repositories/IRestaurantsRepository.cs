@@ -7,5 +7,5 @@ public interface IRestaurantsRepository
     Task<int> CreateAsync (Restaurant entity);
     Task DeleteAsync (Restaurant entity);
     Task SaveChanges ();
-    Task<IEnumerable<Restaurant>> GetAllMacthingAsync (string? searchPhrase);
+    Task<(IEnumerable<Restaurant>, int)> GetAllMacthingAsync (string? searchPhrase,int pageSize, int pageNumber);
 }
