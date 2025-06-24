@@ -1,7 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Restaurants.Domain.Constants;
 using Restaurants.Domain.Entities;
 using Restaurants.Domain.Repositories;
 using Restaurants.Infrastucture.Persistence;
+using System.Linq.Expressions;
 
 namespace Restaurants.Infrastucture.Repositories;
 
@@ -32,12 +34,26 @@ internal class RestaurantsRepository (RestaurantsDBContext dBContext) : IRestaur
     }
     public async Task SaveChanges () => await dBContext.SaveChangesAsync();
 
-    public async Task<(IEnumerable<Restaurant>, int)> GetAllMacthingAsync (string? searchPhrase, int pageSize, int pageNumber)
+    public async Task<(IEnumerable<Restaurant>, int)> GetAllMacthingAsync (string? searchPhrase, 
+        int pageSize, int pageNumber, string? sortBy, SortDirection sortDirection)
     {
         var searchPhraseLower = searchPhrase?.ToLower();
         var baseQuery = dBContext.Restaurants
-            .Where(r => searchPhraseLower == null || (r.Name.ToLower().Contains(searchPhraseLower) ||
+            .Where(r => (searchPhraseLower == null) || (r.Name.ToLower().Contains(searchPhraseLower) ||
                                                       r.Description.ToLower().Contains(searchPhraseLower)));
+        if (sortBy != null)
+        {
+            var columnsSelector = new Dictionary<string, Expression<Func<Restaurant, object>>>
+            {
+                { nameof(Restaurant.Name), r => r.Name },
+                { nameof(Restaurant.Description), r => r.Description },
+                { nameof(Restaurant.Category), r => r.Category }
+            };
+            var selectedColumn = columnsSelector[sortBy];
+            baseQuery = (sortDirection == SortDirection.Ascending)
+                ? baseQuery.OrderBy(selectedColumn)
+                : baseQuery.OrderByDescending(selectedColumn);
+        }
         var totalCount = await baseQuery.CountAsync(); // Count total items for pagination
         var restaurants = await baseQuery
             .Skip(pageSize * (pageNumber - 1))

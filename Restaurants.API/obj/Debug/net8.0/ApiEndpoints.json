@@ -401,6 +401,16 @@
         "Name": "PageNumber",
         "Type": "System.Int32",
         "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDirection",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [
