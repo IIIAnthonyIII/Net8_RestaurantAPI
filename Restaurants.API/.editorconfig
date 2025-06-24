@@ -2,3 +2,9 @@
 
 # Default severity for analyzer diagnostics with category 'Style'
 dotnet_analyzer_diagnostic.category-Style.severity = none
+
+# IDE1006: Estilos de nombres
+dotnet_diagnostic.IDE1006.severity = none
+
+# IDE0044: Agregar modificador de solo lectura
+dotnet_diagnostic.IDE0044.severity = none
