@@ -298,3 +298,5 @@ C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.ApplicationTests\
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.ApplicationTests\obj\Debug\net8.0\Restaurants.ApplicationTests.pdb
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.ApplicationTests\obj\Debug\net8.0\Restaurants.ApplicationTests.genruntimeconfig.cache
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.ApplicationTests\obj\Debug\net8.0\ref\Restaurants.ApplicationTests.dll
+C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.ApplicationTests\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\Restaurants.ApplicationTests\bin\Debug\net8.0\Moq.dll
