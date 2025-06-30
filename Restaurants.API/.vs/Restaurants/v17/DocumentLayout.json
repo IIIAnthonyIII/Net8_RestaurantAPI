@@ -3,13 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurants.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78A61440-259A-492D-90B2-134507D22662}|..\\Restaurant.Aplication\\Restaurants.Application.csproj|c:\\users\\usernew\\documents\\test\\net8_restaurantapi\\restaurant.aplication\\restaurants\\queries\\getallrestaurants\\getallrestaurantsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E48B970-3C7C-4563-B7A1-E50297A2D567}|..\\Restaurants.ApplicationTests\\Restaurants.ApplicationTests.csproj|c:\\users\\usernew\\documents\\test\\net8_restaurantapi\\restaurants.applicationtests\\users\\currentusertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64FA710B-94C3-4DA2-862A-B49FE30BD85B}|..\\Restaurant.Infrastucture\\Restaurants.Infrastucture.csproj|c:\\users\\usernew\\documents\\test\\net8_restaurantapi\\restaurant.infrastucture\\repositories\\restaurantsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4D3C65A-8497-4ABF-B3FA-9E8E06B3FB48}|..\\Restaurant.Domain\\Restaurants.Domain.csproj|c:\\users\\usernew\\documents\\test\\net8_restaurantapi\\restaurant.domain\\repositories\\irestaurantsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78A61440-259A-492D-90B2-134507D22662}|..\\Restaurant.Aplication\\Restaurants.Application.csproj|c:\\users\\usernew\\documents\\test\\net8_restaurantapi\\restaurant.aplication\\users\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,45 +16,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IRestaurantsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurant.Domain\\Repositories\\IRestaurantsRepository.cs",
-              "RelativeDocumentMoniker": "..\\Restaurant.Domain\\Repositories\\IRestaurantsRepository.cs",
-              "ToolTip": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurant.Domain\\Repositories\\IRestaurantsRepository.cs",
-              "RelativeToolTip": "..\\Restaurant.Domain\\Repositories\\IRestaurantsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CurrentUserTests.cs",
+              "DocumentMoniker": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurants.ApplicationTests\\Users\\CurrentUserTests.cs",
+              "RelativeDocumentMoniker": "..\\Restaurants.ApplicationTests\\Users\\CurrentUserTests.cs",
+              "ToolTip": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurants.ApplicationTests\\Users\\CurrentUserTests.cs",
+              "RelativeToolTip": "..\\Restaurants.ApplicationTests\\Users\\CurrentUserTests.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T17:23:50.697Z",
+              "WhenOpened": "2025-06-26T19:28:15.325Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RestaurantsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurant.Infrastucture\\Repositories\\RestaurantsRepository.cs",
-              "RelativeDocumentMoniker": "..\\Restaurant.Infrastucture\\Repositories\\RestaurantsRepository.cs",
-              "ToolTip": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurant.Infrastucture\\Repositories\\RestaurantsRepository.cs",
-              "RelativeToolTip": "..\\Restaurant.Infrastucture\\Repositories\\RestaurantsRepository.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAmwC4AAAANAAAAAAAAAA==",
+              "Title": "CurrentUser.cs",
+              "DocumentMoniker": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurant.Aplication\\Users\\CurrentUser.cs",
+              "RelativeDocumentMoniker": "..\\Restaurant.Aplication\\Users\\CurrentUser.cs",
+              "ToolTip": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurant.Aplication\\Users\\CurrentUser.cs",
+              "RelativeToolTip": "..\\Restaurant.Aplication\\Users\\CurrentUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T17:29:53.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GetAllRestaurantsQuery.cs",
-              "DocumentMoniker": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurant.Aplication\\Restaurants\\Queries\\GetAllRestaurants\\GetAllRestaurantsQuery.cs",
-              "RelativeDocumentMoniker": "..\\Restaurant.Aplication\\Restaurants\\Queries\\GetAllRestaurants\\GetAllRestaurantsQuery.cs",
-              "ToolTip": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurant.Aplication\\Restaurants\\Queries\\GetAllRestaurants\\GetAllRestaurantsQuery.cs",
-              "RelativeToolTip": "..\\Restaurant.Aplication\\Restaurants\\Queries\\GetAllRestaurants\\GetAllRestaurantsQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T16:51:12.837Z",
+              "WhenOpened": "2025-06-26T19:24:55.58Z",
               "EditorCaption": ""
             }
           ]
