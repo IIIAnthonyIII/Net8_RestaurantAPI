@@ -9,10 +9,10 @@
       "AbsoluteMoniker": "D:0:0:{78A61440-259A-492D-90B2-134507D22662}|..\\Restaurant.Aplication\\Restaurants.Application.csproj|c:\\users\\usernew\\documents\\test\\net8_restaurantapi\\restaurant.aplication\\users\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78A61440-259A-492D-90B2-134507D22662}|..\\Restaurant.Aplication\\Restaurants.Application.csproj|c:\\users\\usernew\\documents\\test\\net8_restaurantapi\\restaurant.aplication\\users\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E48B970-3C7C-4563-B7A1-E50297A2D567}|..\\Restaurants.ApplicationTests\\Restaurants.ApplicationTests.csproj|c:\\users\\usernew\\documents\\test\\net8_restaurantapi\\restaurants.applicationtests\\users\\currentusertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E48B970-3C7C-4563-B7A1-E50297A2D567}|..\\Restaurants.ApplicationTests\\Restaurants.ApplicationTests.csproj|c:\\users\\usernew\\documents\\test\\net8_restaurantapi\\restaurants.applicationtests\\users\\currentusertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78A61440-259A-492D-90B2-134507D22662}|..\\Restaurant.Aplication\\Restaurants.Application.csproj|c:\\users\\usernew\\documents\\test\\net8_restaurantapi\\restaurant.aplication\\users\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "..\\Restaurant.Aplication\\Users\\UserContext.cs",
               "ToolTip": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurant.Aplication\\Users\\UserContext.cs",
               "RelativeToolTip": "..\\Restaurant.Aplication\\Users\\UserContext.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-30T15:42:03.867Z",
               "EditorCaption": ""
@@ -43,16 +43,16 @@
               "Title": "UserContextTests.cs",
               "DocumentMoniker": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurants.ApplicationTests\\Users\\UserContextTests.cs",
               "RelativeDocumentMoniker": "..\\Restaurants.ApplicationTests\\Users\\UserContextTests.cs",
-              "ToolTip": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurants.ApplicationTests\\Users\\UserContextTests.cs*",
-              "RelativeToolTip": "..\\Restaurants.ApplicationTests\\Users\\UserContextTests.cs*",
-              "ViewState": "AgIAACUAAAAAAAAAAAAIwDAAAAAXAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurants.ApplicationTests\\Users\\UserContextTests.cs",
+              "RelativeToolTip": "..\\Restaurants.ApplicationTests\\Users\\UserContextTests.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwDsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-30T15:42:18.273Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "CurrentUserTests.cs",
               "DocumentMoniker": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurants.ApplicationTests\\Users\\CurrentUserTests.cs",
               "RelativeDocumentMoniker": "..\\Restaurants.ApplicationTests\\Users\\CurrentUserTests.cs",
@@ -65,7 +65,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CurrentUser.cs",
               "DocumentMoniker": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurant.Aplication\\Users\\CurrentUser.cs",
               "RelativeDocumentMoniker": "..\\Restaurant.Aplication\\Users\\CurrentUser.cs",
