@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurants.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4E48B970-3C7C-4563-B7A1-E50297A2D567}|..\\Restaurants.ApplicationTests\\Restaurants.ApplicationTests.csproj|c:\\users\\usernew\\documents\\test\\net8_restaurantapi\\restaurants.applicationtests\\restaurants\\dtos\\restaurantprofiletests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4E48B970-3C7C-4563-B7A1-E50297A2D567}|..\\Restaurants.ApplicationTests\\Restaurants.ApplicationTests.csproj|c:\\users\\usernew\\documents\\test\\net8_restaurantapi\\restaurants.applicationtests\\restaurants\\commands\\createrestaurant\\createrestaurantcommandvalidationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -21,19 +24,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RestaurantProfileTests.cs",
+              "DocumentMoniker": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurants.ApplicationTests\\Restaurants\\Dtos\\RestaurantProfileTests.cs",
+              "RelativeDocumentMoniker": "..\\Restaurants.ApplicationTests\\Restaurants\\Dtos\\RestaurantProfileTests.cs",
+              "ToolTip": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurants.ApplicationTests\\Restaurants\\Dtos\\RestaurantProfileTests.cs",
+              "RelativeToolTip": "..\\Restaurants.ApplicationTests\\Restaurants\\Dtos\\RestaurantProfileTests.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAwwF8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T20:32:49.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CreateRestaurantCommandValidationTests.cs",
               "DocumentMoniker": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurants.ApplicationTests\\Restaurants\\Commands\\CreateRestaurant\\CreateRestaurantCommandValidationTests.cs",
               "RelativeDocumentMoniker": "..\\Restaurants.ApplicationTests\\Restaurants\\Commands\\CreateRestaurant\\CreateRestaurantCommandValidationTests.cs",
-              "ToolTip": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurants.ApplicationTests\\Restaurants\\Commands\\CreateRestaurant\\CreateRestaurantCommandValidationTests.cs*",
-              "RelativeToolTip": "..\\Restaurants.ApplicationTests\\Restaurants\\Commands\\CreateRestaurant\\CreateRestaurantCommandValidationTests.cs*",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAuwEoAAAAZAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurants.ApplicationTests\\Restaurants\\Commands\\CreateRestaurant\\CreateRestaurantCommandValidationTests.cs",
+              "RelativeToolTip": "..\\Restaurants.ApplicationTests\\Restaurants\\Commands\\CreateRestaurant\\CreateRestaurantCommandValidationTests.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowBkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-30T17:24:02.746Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ServiceCollectionExtension.cs",
               "DocumentMoniker": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurant.Infrastucture\\Extensions\\ServiceCollectionExtension.cs",
               "RelativeDocumentMoniker": "..\\Restaurant.Infrastucture\\Extensions\\ServiceCollectionExtension.cs",
@@ -41,8 +57,7 @@
               "RelativeToolTip": "..\\Restaurant.Infrastucture\\Extensions\\ServiceCollectionExtension.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAgwBsAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T19:59:57.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T19:59:57.672Z"
             }
           ]
         }
