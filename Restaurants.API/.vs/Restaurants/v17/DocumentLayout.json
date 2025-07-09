@@ -3,16 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurants.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E48B970-3C7C-4563-B7A1-E50297A2D567}|..\\Restaurants.ApplicationTests\\Restaurants.ApplicationTests.csproj|c:\\users\\usernew\\documents\\test\\net8_restaurantapi\\restaurants.applicationtests\\users\\usercontexttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E48B970-3C7C-4563-B7A1-E50297A2D567}|..\\Restaurants.ApplicationTests\\Restaurants.ApplicationTests.csproj|c:\\users\\usernew\\documents\\test\\net8_restaurantapi\\restaurants.applicationtests\\restaurants\\commands\\createrestaurant\\createrestaurantcommandvalidationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78A61440-259A-492D-90B2-134507D22662}|..\\Restaurant.Aplication\\Restaurants.Application.csproj|c:\\users\\usernew\\documents\\test\\net8_restaurantapi\\restaurant.aplication\\users\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E48B970-3C7C-4563-B7A1-E50297A2D567}|..\\Restaurants.ApplicationTests\\Restaurants.ApplicationTests.csproj|c:\\users\\usernew\\documents\\test\\net8_restaurantapi\\restaurants.applicationtests\\users\\currentusertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78A61440-259A-492D-90B2-134507D22662}|..\\Restaurant.Aplication\\Restaurants.Application.csproj|c:\\users\\usernew\\documents\\test\\net8_restaurantapi\\restaurant.aplication\\users\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64FA710B-94C3-4DA2-862A-B49FE30BD85B}|..\\Restaurant.Infrastucture\\Restaurants.Infrastucture.csproj|c:\\users\\usernew\\documents\\test\\net8_restaurantapi\\restaurant.infrastucture\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,56 +16,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserContext.cs",
-              "DocumentMoniker": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurant.Aplication\\Users\\UserContext.cs",
-              "RelativeDocumentMoniker": "..\\Restaurant.Aplication\\Users\\UserContext.cs",
-              "ToolTip": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurant.Aplication\\Users\\UserContext.cs",
-              "RelativeToolTip": "..\\Restaurant.Aplication\\Users\\UserContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T15:42:03.867Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserContextTests.cs",
-              "DocumentMoniker": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurants.ApplicationTests\\Users\\UserContextTests.cs",
-              "RelativeDocumentMoniker": "..\\Restaurants.ApplicationTests\\Users\\UserContextTests.cs",
-              "ToolTip": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurants.ApplicationTests\\Users\\UserContextTests.cs",
-              "RelativeToolTip": "..\\Restaurants.ApplicationTests\\Users\\UserContextTests.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwDsAAAAVAAAAAAAAAA==",
+              "Title": "CreateRestaurantCommandValidationTests.cs",
+              "DocumentMoniker": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurants.ApplicationTests\\Restaurants\\Commands\\CreateRestaurant\\CreateRestaurantCommandValidationTests.cs",
+              "RelativeDocumentMoniker": "..\\Restaurants.ApplicationTests\\Restaurants\\Commands\\CreateRestaurant\\CreateRestaurantCommandValidationTests.cs",
+              "ToolTip": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurants.ApplicationTests\\Restaurants\\Commands\\CreateRestaurant\\CreateRestaurantCommandValidationTests.cs",
+              "RelativeToolTip": "..\\Restaurants.ApplicationTests\\Restaurants\\Commands\\CreateRestaurant\\CreateRestaurantCommandValidationTests.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAuwFUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T15:42:18.273Z",
+              "WhenOpened": "2025-06-30T17:24:02.746Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CurrentUserTests.cs",
-              "DocumentMoniker": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurants.ApplicationTests\\Users\\CurrentUserTests.cs",
-              "RelativeDocumentMoniker": "..\\Restaurants.ApplicationTests\\Users\\CurrentUserTests.cs",
-              "ToolTip": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurants.ApplicationTests\\Users\\CurrentUserTests.cs",
-              "RelativeToolTip": "..\\Restaurants.ApplicationTests\\Users\\CurrentUserTests.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ServiceCollectionExtension.cs",
+              "DocumentMoniker": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurant.Infrastucture\\Extensions\\ServiceCollectionExtension.cs",
+              "RelativeDocumentMoniker": "..\\Restaurant.Infrastucture\\Extensions\\ServiceCollectionExtension.cs",
+              "ToolTip": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurant.Infrastucture\\Extensions\\ServiceCollectionExtension.cs",
+              "RelativeToolTip": "..\\Restaurant.Infrastucture\\Extensions\\ServiceCollectionExtension.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwBsAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T19:28:15.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CurrentUser.cs",
-              "DocumentMoniker": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurant.Aplication\\Users\\CurrentUser.cs",
-              "RelativeDocumentMoniker": "..\\Restaurant.Aplication\\Users\\CurrentUser.cs",
-              "ToolTip": "C:\\Users\\UserNew\\Documents\\Test\\Net8_RestaurantAPI\\Restaurant.Aplication\\Users\\CurrentUser.cs",
-              "RelativeToolTip": "..\\Restaurant.Aplication\\Users\\CurrentUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T19:24:55.58Z"
+              "WhenOpened": "2025-06-30T19:59:57.672Z",
+              "EditorCaption": ""
             }
           ]
         }
