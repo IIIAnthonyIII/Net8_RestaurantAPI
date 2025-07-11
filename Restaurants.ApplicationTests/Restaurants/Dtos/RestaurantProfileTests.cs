@@ -1,12 +1,9 @@
 ﻿using AutoMapper;
-
 using FluentAssertions;
-
 using Restaurants.Application.Restaurants.Commands.CreateRestaurant;
 using Restaurants.Application.Restaurants.Commands.UpdateRestaurant;
 using Restaurants.Application.Restaurants.Dtos;
 using Restaurants.Domain.Entities;
-
 using Xunit;
 
 namespace Restaurants.ApplicationTests.Restaurants.Dtos;
@@ -87,7 +84,7 @@ public class RestaurantProfileTests
         restaurant.HasDelivery.Should().Be(command.HasDelivery);
         restaurant.ContactEmail.Should().Be(command.ContactEmail);
         restaurant.ContactNumber.Should().Be(command.ContactNumber);
-        restaurant.Address.City.Should().Be(command.City);
+        restaurant.Address!.City.Should().Be(command.City);
         restaurant.Address.Street.Should().Be(command.Street);
         restaurant.Address.PostalCode.Should().Be(command.PostalCode);
     }

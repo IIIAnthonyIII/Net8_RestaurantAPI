@@ -7,7 +7,7 @@ using Restaurants.Domain.Repositories;
 
 namespace Restaurants.Application.Restaurants.Commands.CreateRestaurant;
 
-//El int es lo que se espera que devuelva del command
+// El int es lo que se espera que devuelva del command
 public class CreateRestaurantCommandHandler (ILogger<CreateRestaurantCommandHandler> logger,
     IRestaurantsRepository restaurantsRepository,
     IUserContext userContext,
