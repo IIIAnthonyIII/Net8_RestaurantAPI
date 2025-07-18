@@ -38,3 +38,6 @@ app.MapGroup("api/identity")
 app.UseAuthorization();
 app.MapControllers();
 app.Run();
+
+// Para referenciar a APITest
+public partial class Program { }
