@@ -9,7 +9,7 @@ namespace Restaurants.Infrastucture.Repositories;
 
 internal class RestaurantsRepository (RestaurantsDBContext dBContext) : IRestaurantsRepository
 {
-    public async Task<IEnumerable<Restaurant>> GetAllMActhingAsync ()
+    public async Task<IEnumerable<Restaurant>> GetAllAsync ()
     {
         var restaurants = await dBContext.Restaurants.ToListAsync();
         return restaurants;

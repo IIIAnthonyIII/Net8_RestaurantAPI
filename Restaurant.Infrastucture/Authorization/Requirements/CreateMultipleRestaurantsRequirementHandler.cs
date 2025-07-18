@@ -13,7 +13,7 @@ public class CreateMultipleRestaurantsRequirementHandler (ILogger<CreateMultiple
     {
         var currentUser = userContext.GetCurrentUser();
         if (currentUser == null) context.Fail();
-        var restaurants = await restaurantsRepository.GetAllMActhingAsync();
+        var restaurants = await restaurantsRepository.GetAllAsync();
         var restaurantsCount = restaurants.Count(r => r.OwnerId == currentUser!.Id);
         if (restaurantsCount >= requirement.MinimumRestaurantCreate)
             context.Succeed(requirement);
