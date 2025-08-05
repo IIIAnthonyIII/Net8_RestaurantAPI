@@ -575,7 +575,6 @@ C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\obj\Debug
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\obj\Debug\net8.0\Restaura.7AF479EB.Up2Date
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\obj\Debug\net8.0\Restaurants.API.dll
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\obj\Debug\net8.0\refint\Restaurants.API.dll
