@@ -535,6 +535,27 @@
     ]
   },
   {
+    "ContainingType": "Restaurants.API.Controllers.RestaurantsController",
+    "Method": "UploadLogo",
+    "RelativePath": "api/restaurants/{id}/logo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Restaurants.API.Controllers.DishesController",
     "Method": "CreateDish",
     "RelativePath": "api/restaurants/{restaurantId}/dishes",

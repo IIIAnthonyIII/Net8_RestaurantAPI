@@ -1,4 +1,4 @@
-﻿namespace Restaurants.Domain.Entities;
+namespace Restaurants.Domain.Entities;
 public class Restaurant
 {
     public int Id { get; set; }
@@ -14,4 +14,5 @@ public class Restaurant
     public List<Dish> Dishes { get; set; } = new();
     public User Owner { get; set; } = default!;
     public string OwnerId { get; set; } = default!;
+    public string? LogoUrl { get; set; }
 }
