@@ -1,4 +1,4 @@
-﻿using Restaurants.Application.Dishes.Dtos;
+using Restaurants.Application.Dishes.Dtos;
 
 namespace Restaurants.Application.Restaurants.Dtos;
 public class RestaurantDto
@@ -11,5 +11,6 @@ public class RestaurantDto
     public string? City { get; set; }
     public string? Street { get; set; }
     public string? PostalCode { get; set; }
+    public string? LogoSasUrl { get; set; }
     public List<DishDto> Dishes { get; set; } = [];
 }
