@@ -71,7 +71,7 @@ public class RestaurantsController(IMediator mediator) : ControllerBase
         var command = new UploadRestaurantLogoCommand()
         {
             RestaurantId = id,
-            FileName = file.Name,
+            FileName = $"{id}_{file.FileName}",
             File = stream
         };
         await mediator.Send(command);

@@ -7,8 +7,9 @@ using Restaurants.Infrastucture.Extensions;
 using Restaurants.Infrastucture.Seeders;
 using Serilog;
 using Serilog.Events;
+using Microsoft.Extensions.Azure;
 
-// Se aplica try catch para guardar en los logs algún error como cadena de conexión, etc
+// Se aplica try catch para guardar en los logs algÃºn error como cadena de conexiÃ³n, etc
 try
 {
     var builder = WebApplication.CreateBuilder(args);
@@ -20,7 +21,7 @@ try
 
     var app = builder.Build();
 
-    //Los Seeders van después de que se construya la app
+    //Los Seeders van despuÃ©s de que se construya la app
     var scope = app.Services.CreateScope();
     var seeders = scope.ServiceProvider.GetRequiredService<IRestaurantSeeder>();
     await seeders.Seed();

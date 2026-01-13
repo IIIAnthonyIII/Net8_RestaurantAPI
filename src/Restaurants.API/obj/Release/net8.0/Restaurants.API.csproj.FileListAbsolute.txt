@@ -201,3 +201,7 @@ C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\obj\Relea
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\obj\Release\net8.0\Restaurants.API.pdb
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\obj\Release\net8.0\Restaurants.API.genruntimeconfig.cache
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\obj\Release\net8.0\ref\Restaurants.API.dll
+C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\bin\Release\net8.0\Azure.Storage.Blobs.dll
+C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\bin\Release\net8.0\Azure.Storage.Common.dll
+C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\bin\Release\net8.0\System.IO.Hashing.dll
+C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\obj\Release\net8.0\swae.build.ex.cache

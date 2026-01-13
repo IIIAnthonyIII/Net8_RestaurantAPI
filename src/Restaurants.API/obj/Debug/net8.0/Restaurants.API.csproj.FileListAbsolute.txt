@@ -466,6 +466,7 @@ C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\bin\Debug
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\bin\Debug\net8.0\System.Formats.Asn1.dll
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\bin\Debug\net8.0\System.IO.Hashing.dll
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\bin\Debug\net8.0\System.IO.Pipelines.dll
@@ -578,11 +579,9 @@ C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\obj\Debug
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\obj\Debug\net8.0\swae.build.ex.cache
-C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\obj\Debug\net8.0\Restaura.7AF479EB.Up2Date
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\obj\Debug\net8.0\Restaurants.API.dll
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\obj\Debug\net8.0\refint\Restaurants.API.dll
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\obj\Debug\net8.0\Restaurants.API.pdb
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\obj\Debug\net8.0\Restaurants.API.genruntimeconfig.cache
 C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\obj\Debug\net8.0\ref\Restaurants.API.dll
-C:\Users\UserNew\Documents\Test\Net8_RestaurantAPI\src\Restaurants.API\bin\Debug\net8.0\System.Formats.Asn1.dll
