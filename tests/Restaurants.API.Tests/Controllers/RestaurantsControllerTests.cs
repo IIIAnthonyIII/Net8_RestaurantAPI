@@ -1,4 +1,4 @@
-﻿using FluentAssertions;
+using FluentAssertions;
 using Microsoft.AspNetCore.Authorization.Policy;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.DependencyInjection;
@@ -7,6 +7,8 @@ using Moq;
 using Restaurants.Application.Restaurants.Dtos;
 using Restaurants.Domain.Entities;
 using Restaurants.Domain.Repositories;
+using Restaurants.Infrastucture.Seeders;
+
 using System.Net.Http.Json;
 using Xunit;
 
@@ -17,6 +19,7 @@ public class RestaurantsControllerTests : IClassFixture<WebApplicationFactory<Pr
     // Para crear una instancia de la aplicación web para pruebas
     private readonly WebApplicationFactory<Program> _factory;
     private readonly Mock<IRestaurantsRepository> _restaurantsRepositoryMock = new ();
+    private readonly Mock<IRestaurantSeeder> _restaurantsSeederMock = new();
     public RestaurantsControllerTests(WebApplicationFactory<Program> factory)
     {
         // Agregar un evaluador de políticas falso para evitar problemas de autorización en las pruebas
@@ -25,7 +28,10 @@ public class RestaurantsControllerTests : IClassFixture<WebApplicationFactory<Pr
             builder.ConfigureServices(services =>
             {
                 services.AddSingleton<IPolicyEvaluator, FakePolicyEvaluator>();
-                services.Replace(ServiceDescriptor.Scoped(typeof(IRestaurantsRepository), _ => _restaurantsRepositoryMock.Object));
+                services.Replace(ServiceDescriptor.Scoped(typeof(IRestaurantsRepository), 
+                    _ => _restaurantsRepositoryMock.Object));
+                services.Replace(ServiceDescriptor.Scoped(typeof(IRestaurantSeeder),
+                    _ => _restaurantsSeederMock.Object));
             });
         });
     }
