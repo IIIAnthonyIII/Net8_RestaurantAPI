@@ -14,3 +14,5 @@ API => Establecer como proyecto de inicio
 add-migration Init 	    => Crear archivo para migración
 update-database		    => Correr migración
 add-migration nameMigration => Agregar un cambio en las tablas
+
+Se añadió Integración continua (Continuos Integration) Github
