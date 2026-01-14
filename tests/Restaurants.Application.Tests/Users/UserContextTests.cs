@@ -38,7 +38,7 @@ public class UserContextTests
 
         // Assert
         currentUser.Should().NotBeNull();
-        currentUser.Id.Should().Be("1");
+        currentUser.Id.Should().Be("2");
         currentUser.Email.Should().Be("test@gmail.com");
         currentUser.Roles.Should().Contain(UserRoles.Admin, UserRoles.User);
         currentUser.Nationality.Should().Be("Italiano");
