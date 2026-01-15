@@ -36,7 +36,7 @@ jobs:
       - name: Download a Build Artifact
         uses: actions/download-artifact@v7.0.0
         with:
-          name: api-artefact
+          name: api-artifact
       - name: Azure WebApp
         uses: Azure/webapps-deploy@v2.2.17
         with:
